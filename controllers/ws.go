@@ -45,5 +45,5 @@ func (c *WsController) Get() {
 
 	go Read(ws,keyStr)
 
-	c.StopRun()
+	c.StopRun() 
 }
